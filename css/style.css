@@ -1,0 +1,24 @@
+.message {
+  position: absolute;
+  width: 75%;
+  min-width: 320px;
+  margin-left: 12.5%;
+  margin-right: auto;
+  margin-top: 2%;
+  opacity: 0;
+  max-height: 0%;
+  z-index: -9999999999;
+  transition-duration: 600ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.message.open {
+  max-height: 100%;
+  opacity: 1;
+  z-index: 999999999999999;
+}
+
+.container.login-form {
+  width: 60%;
+}

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CONTROLL APP</title>
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <body>
+
+    <!-- START NAV -->
+    <nav class="navbar has-background-grey-lighter">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item brand-text" href="/">
+            Pevačko Društvo Preobraženje - Admin Zona
+          </a>
+          <div class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+    <!-- END NAV -->
+    <div class="container">
+      <div class="columns">
+        <div class="column is-3">
+          <aside class="menu">
+            <p class="menu-label">
+              Opšte
+            </p>
+            <ul class="menu-list">
+              <li>
+                <a>Kontrolna Tabla</a>
+              </li>
+              <li>
+                <a class="is-active">Opšta Podešavanja</a>
+              </li>
+            </ul>
+            <p class="menu-label">
+              Društvena mreža
+            </p>
+            <ul class="menu-list">
+              <li>
+                <a>Opšta Podešavanja</a>
+              </li>
+              <li>
+                <a>Podešavanja</a>
+                <ul>
+                  <li>
+                    <a>Članovi</a>
+                  </li>
+                  <li>
+                    <a>Postovi</a>
+                  </li>
+                  <li>
+                    <a>Dodaj novog korisnika</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Obaveštenja</a>
+              </li>
+              <li>
+                <a>Nalozi koji čekaju aktivaciju</a>
+              </li>
+              <li>
+                <a>Prijavljeni problemi</a>
+              </li>
+            </ul>
+            <p class="menu-label">
+              Kalendar
+            </p>
+            <ul class="menu-list">
+              <li>
+                <a>Podešavanja</a>
+              </li>
+              <li>
+                <a>Podešavanja događaja</a>
+              </li>
+            </ul>
+            <p class="menu-label">
+              Galerija
+            </p>
+            <ul class="menu-list">
+              <li>
+                <a>Opšta Podešavanja</a>
+              </li>
+              <li>
+                <a>Podešavanja</a>
+                <ul>
+                  <li>
+                    <a>Članovi</a>
+                  </li>
+                  <li>
+                    <a>Albumi</a>
+                  </li>
+                  <li>
+                    <a>Dodaj novog korisnika</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Istaknuti Albumi</a>
+              </li>
+              <li>
+                <a>Zauzet prostor (hard disk)</a>
+              </li>
+            </ul>
+          </aside>
+        </div>
+        <div class="column is-9">
+          <section class="hero is-info welcome is-small">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                  Hello, Admin.
+                </h1>
+                <h2 class="subtitle">
+                  I hope you are having a great day!
+                </h2>
+              </div>
+            </div>
+          </section>
+          <section class="info-tiles">
+            <div class="tile is-ancestor has-text-centered">
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">439k</p>
+                  <p class="subtitle">Korisnika</p>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">59k</p>
+                  <p class="subtitle">Postova</p>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">3.4k</p>
+                  <p class="subtitle">Slika</p>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">19</p>
+                  <p class="subtitle">Događaja</p>
+                </article>
+              </div>
+            </div>
+          </section>
+          <div class="columns">
+            <div class="column is-12">
+              <div class="card events-card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    OPŠTE - Opšta Podešavanja
+                  </p>
+                  <a href="#" class="card-header-icon" aria-label="more options">
+                    <span class="icon">
+                      <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                  </a>
+                </header>
+                <div class="card-table">
+                  <div class="content">
+                    <table class="table is-fullwidth is-striped">
+                      <tbody>
+                        <div class="card">
+                          <div class="card-content login">
+                            <div class="field">
+                              <div class="columns">
+                                <div class="column">
+                                  <label class="label">Naziv Konfiguracijskog Polja</label>
+                                </div>
+                                <div class="column">
+                                  <div class="control">
+                                    <input class="input" type="email" placeholder="placeholder">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="field">
+                              <div class="columns">
+                                <div class="column">
+                                  <label class="label">Naziv Konfiguracijskog Polja</label>
+                                </div>
+                                <div class="column">
+                                  <div class="control">
+                                    <textarea class="textarea" placeholder="e.g. Hello world"></textarea>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="field">
+                              <div class="columns">
+                                <div class="column">
+                                  <label class="label">Naziv Konfiguracijskog Polja</label>
+                                </div>
+                                <div class="column">
+                                  <div class="select">
+                                    <select>
+                                      <option>Select dropdown</option>
+                                      <option>With options</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="field">
+                              <div class="columns">
+                                <div class="column">
+                                  <label class="label">Naziv Konfiguracijskog Polja</label>
+                                </div>
+                                <div class="column">
+                                  <div class="control">
+                                    <label class="checkbox">
+                                      <input type="checkbox"> Izaberi
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="field">
+                              <div class="columns">
+                                <div class="column">
+                                  <label class="label">Naziv Konfiguracijskog Polja</label>
+                                </div>
+                                <div class="column">
+                                  <div class="control">
+                                    <label class="radio">
+                                      <input type="radio" name="rsvp"> Going
+                                    </label>
+                                    <label class="radio">
+                                      <input type="radio" name="rsvp"> Not going
+                                    </label>
+                                    <label class="radio" disabled>
+                                      <input type="radio" name="rsvp" disabled> Maybe
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="field">
+                              <div class="columns">
+                                <div class="column">
+                                  <label class="label">Naziv Konfiguracijskog Polja</label>
+                                </div>
+                                <div class="column">
+                                  <div class="file has-name">
+                                    <label class="file-label">
+                                      <input class="file-input" type="file" name="resume">
+                                      <span class="file-cta">
+                                        <span class="file-icon">
+                                          <i class="fas fa-upload"></i>
+                                        </span>
+                                        <span class="file-label">
+                                          Choose a file…
+                                        </span>
+                                      </span>
+                                      <span class="file-name">
+                                        Screen Shot 2017-07-29 at 15.54.25.png
+                                      </span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="has-text-centered">
+                              <hr>
+                              <a class="button is-danger">Reset</a>
+                              <a class="button is-success">Save</a>
+                            </div>
+                          </div>
+                        </div>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js" integrity="sha256-/GKyJ0BQJD8c8UYgf7ziBrs/QgcikS7Fv/SaArgBcEI="
+      crossorigin="anonymous"></script>
+    <script src="js/all.js"></script>
+    <script>
+      new Modal('#message-modal', null, '#close', 10000)
+    </script>
+  </body>
+
+</html>

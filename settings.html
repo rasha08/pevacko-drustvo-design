@@ -15,10 +15,10 @@
   <body>
 
     <!-- START NAV -->
-    <nav class="navbar has-background-grey-lighter">
+    <nav class="navbar has-background-dark">
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item brand-text" href="/">
+          <a class="navbar-item brand-text  has-text-white" href="/">
             Pevačko Društvo Preobraženje - Admin Zona
           </a>
           <div class="navbar-burger burger" data-target="navMenu">
@@ -35,7 +35,7 @@
       <div class="columns">
         <div class="column is-3">
           <aside class="menu">
-            <p class="menu-label">
+            <p class="menu-label is-size-6 has-background-grey-lighter">
               Opšte
             </p>
             <ul class="menu-list">
@@ -46,7 +46,7 @@
                 <a class="is-active">Opšta Podešavanja</a>
               </li>
             </ul>
-            <p class="menu-label">
+            <p class="menu-label is-size-6 has-background-grey-lighter">
               Društvena mreža
             </p>
             <ul class="menu-list">
@@ -77,7 +77,7 @@
                 <a>Prijavljeni problemi</a>
               </li>
             </ul>
-            <p class="menu-label">
+            <p class="menu-label is-size-6 has-background-grey-lighter">
               Kalendar
             </p>
             <ul class="menu-list">
@@ -88,7 +88,7 @@
                 <a>Podešavanja događaja</a>
               </li>
             </ul>
-            <p class="menu-label">
+            <p class="menu-label is-size-6 has-background-grey-lighter">
               Galerija
             </p>
             <ul class="menu-list">
@@ -197,8 +197,34 @@
                                 </div>
                                 <div class="column">
                                   <div class="control">
+                                    <input class="input is-danger" type="email" placeholder="placeholder">
+                                  </div>
+                                  <strong class="help is-danger">Data vrednost nije validna!</strong>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="field">
+                              <div class="columns">
+                                <div class="column">
+                                  <label class="label">Naziv Konfiguracijskog Polja</label>
+                                </div>
+                                <div class="column">
+                                  <div class="control">
                                     <textarea class="textarea" placeholder="e.g. Hello world"></textarea>
                                   </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="field">
+                              <div class="columns">
+                                <div class="column">
+                                  <label class="label">Naziv Konfiguracijskog Polja</label>
+                                </div>
+                                <div class="column">
+                                  <div class="control">
+                                    <textarea class="textarea is-danger" placeholder="e.g. Hello world"></textarea>
+                                  </div>
+                                  <strong class="help is-danger">Data vrednost nije validna!</strong>
                                 </div>
                               </div>
                             </div>
@@ -214,6 +240,22 @@
                                       <option>With options</option>
                                     </select>
                                   </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="field">
+                              <div class="columns">
+                                <div class="column">
+                                  <label class="label">Naziv Konfiguracijskog Polja</label>
+                                </div>
+                                <div class="column">
+                                  <div class="select is-danger">
+                                    <select>
+                                      <option>Select dropdown</option>
+                                      <option>With options</option>
+                                    </select>
+                                  </div>
+                                  <strong class="help is-danger">Data vrednost nije validna!</strong>
                                 </div>
                               </div>
                             </div>
@@ -239,7 +281,7 @@
                                 <div class="column">
                                   <div class="control">
                                     <label class="radio">
-                                      <input type="radio" name="rsvp"> Going
+                                      <input type="radio" checked name="rsvp"> Going
                                     </label>
                                     <label class="radio">
                                       <input type="radio" name="rsvp"> Not going
